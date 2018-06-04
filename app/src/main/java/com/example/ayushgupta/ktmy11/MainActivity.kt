@@ -1,6 +1,5 @@
 package com.example.ayushgupta.ktmy11
 
-import android.content.Intent
 import android.content.pm.PackageManager
 import android.media.MediaPlayer
 import android.net.Uri
@@ -37,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             tv4 = findViewById(R.id.tv4)
 
             getSong()
-            
+
             lview = findViewById(R.id.lview)
             val adapter = MyAdapter(songs!!, this)
             lview?.adapter = adapter
