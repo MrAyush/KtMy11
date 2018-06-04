@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             tv4 = findViewById(R.id.tv4)
 
             getSong()
+            
             lview = findViewById(R.id.lview)
             val adapter = MyAdapter(songs!!, this)
             lview?.adapter = adapter
